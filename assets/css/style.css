@@ -1,5 +1,11 @@
 body {
-    background-color: yellow;
+    background-image: linear-gradient(black, yellow);
+    background: repeating-linear-gradient(
+  45deg,
+  yellow,
+  black 10px,
+  yellow 10px
+);
 }
 
 .navfolio {
@@ -12,24 +18,40 @@ body {
 
 .jamo {
     font-style: oblique;
-    padding: 10px;
+    padding: 20px;
+    background-image: linear-gradient(red, yellow);
+
 }
 
 .card-1 {
-    size: 100px;
+    size: 50px;
+    
+}
+
+.card-image-1 {
+    background-image: linear-gradient(red, yellow);
 }
 
 .card-2 {
     size: 50px;
 }
+.card-image-2 {
+    background-image: linear-gradient(red, yellow);
+}
 
 .card-3 {
     size: 50px;
 }
+.card-image-3 {
+    background-image: linear-gradient(red, yellow);
+}
 
 .profile {
+    background-image: linear-gradient(red, yellow);
     text-align: justify;
     float: left;
+    padding: 20px;
+    margin: 20px;
 }
 
 img {
@@ -37,5 +59,18 @@ img {
 }
 
 .brand-logo {
-    padding: 5px;
+    padding-left: 15px !important;
 }
+.text-1 {
+    padding: 10px;
+}
+#customer-form {
+    background-image: linear-gradient(red, yellow);
+    padding: 20px;
+    margin: 20px;
+
+}
+ #zach {
+     color: black;
+     font-weight: bold;
+ }
